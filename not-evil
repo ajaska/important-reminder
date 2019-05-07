@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -euo pipefail
+
+printf "%0.s@" {1..79}
+echo
+
+whoami
+uname -a
+echo ">> npm packages aren't any better than piping curl into bash <<"
+
+printf "%0.s@" {1..79} "\n"
+echo
+
+exit 1

@@ -1,0 +1,13 @@
+{
+  "name": "important-reminder",
+  "version": "1.0.0",
+  "description": "Security! Cool!",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "./not-evil"
+  },
+  "repository": "https://github.com/ajaska/important-reminder",
+  "author": "ajaska <akjaska@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
